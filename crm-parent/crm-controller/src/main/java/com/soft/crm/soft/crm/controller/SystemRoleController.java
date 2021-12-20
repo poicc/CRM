@@ -1,13 +1,13 @@
 package com.soft.crm.soft.crm.controller;
 
 import com.alibaba.fastjson.JSONObject;
-import com.soft.crm.soft.crm.common.entity.SystemRole;
-import com.soft.crm.soft.crm.common.vo.SystemMenuVo;
+import com.soft.crm.common.entity.SystemRole;
+import com.soft.crm.common.vo.SystemMenuVo;
 import com.soft.crm.soft.crm.dto.PageDto;
-import com.soft.crm.soft.crm.common.vo.SystemResult;
-import com.soft.crm.soft.crm.common.vo.SystemRoleVo;
-import com.soft.crm.soft.crm.service.SystemMenuService;
-import com.soft.crm.soft.crm.service.SystemRoleService;
+import com.soft.crm.common.vo.SystemResult;
+import com.soft.crm.common.vo.SystemRoleVo;
+import com.soft.crm.service.SystemMenuService;
+import com.soft.crm.service.SystemRoleService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.web.bind.annotation.*;
@@ -19,7 +19,7 @@ import java.util.Map;
 
 /**
  * @description: SystemRoleController
- * @author: mqxu
+ * @author: crq
  * @date: 2021-12-11
  **/
 @RestController

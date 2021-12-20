@@ -3,17 +3,17 @@ package com.soft.crm.soft.crm.controller;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
-import com.soft.crm.soft.crm.common.entity.SystemRole;
-import com.soft.crm.soft.crm.common.entity.SystemUser;
-import com.soft.crm.soft.crm.common.entity.SystemUserRole;
-import com.soft.crm.soft.crm.common.vo.SystemMenuVo;
-import com.soft.crm.soft.crm.common.vo.SystemUserInfoVo;
-import com.soft.crm.soft.crm.common.vo.SystemUserVo;
+import com.soft.crm.common.entity.SystemRole;
+import com.soft.crm.common.entity.SystemUser;
+import com.soft.crm.common.entity.SystemUserRole;
+import com.soft.crm.common.vo.SystemMenuVo;
+import com.soft.crm.common.vo.SystemUserInfoVo;
+import com.soft.crm.common.vo.SystemUserVo;
 import com.soft.crm.soft.crm.dto.PageDto;
-import com.soft.crm.soft.crm.common.vo.SystemResult;
-import com.soft.crm.soft.crm.service.SystemRoleService;
-import com.soft.crm.soft.crm.service.SystemUserRoleService;
-import com.soft.crm.soft.crm.service.SystemUserService;
+import com.soft.crm.common.vo.SystemResult;
+import com.soft.crm.service.SystemRoleService;
+import com.soft.crm.service.SystemUserRoleService;
+import com.soft.crm.service.SystemUserService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import lombok.extern.slf4j.Slf4j;
@@ -27,7 +27,7 @@ import java.util.Map;
 
 /**
  * @description: 用户管理接口
- * @author: mqxu
+ * @author: crq
  * @date: 2021-12-11
  **/
 @Slf4j

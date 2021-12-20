@@ -6,7 +6,7 @@ import lombok.EqualsAndHashCode;
 
 /**
  * @description: 公海DTO
- * @author: mqxu
+ * @author: crq
  * @date: 2021-12-17
  **/
 @EqualsAndHashCode(callSuper = true)

@@ -1,6 +1,6 @@
 package com.soft.crm.soft.crm.controller;
 
-import com.soft.crm.soft.crm.common.vo.SystemResult;
+import com.soft.crm.common.vo.SystemResult;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 /**
  * 登录和登出
  *
- * @author mqxu
+ * @author crq
  */
 @RestController
 @Api(produces = "登录和登出", tags = {"登录登出接口"})

@@ -4,11 +4,11 @@ package com.soft.crm.soft.crm.controller;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
-import com.soft.crm.soft.crm.common.entity.CrmWork;
+import com.soft.crm.common.entity.CrmWork;
 import com.soft.crm.soft.crm.dto.PageDto;
-import com.soft.crm.soft.crm.security.api.ApiController;
-import com.soft.crm.soft.crm.common.vo.SystemResult;
-import com.soft.crm.soft.crm.service.CrmWorkService;
+import com.soft.crm.security.api.ApiController;
+import com.soft.crm.common.vo.SystemResult;
+import com.soft.crm.service.CrmWorkService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.web.bind.annotation.*;
@@ -19,7 +19,7 @@ import java.util.List;
 
 /**
  * @description: CRM工作台接口
- * @author: mqxu
+ * @author: crq
  * @date: 2021-12-16
  */
 @RestController

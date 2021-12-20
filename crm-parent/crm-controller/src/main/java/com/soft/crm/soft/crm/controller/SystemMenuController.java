@@ -1,11 +1,11 @@
 package com.soft.crm.soft.crm.controller;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
-import com.soft.crm.soft.crm.common.entity.SystemMenu;
-import com.soft.crm.soft.crm.common.vo.DictType;
-import com.soft.crm.soft.crm.common.vo.SystemMenuVo;
-import com.soft.crm.soft.crm.common.vo.SystemResult;
-import com.soft.crm.soft.crm.service.SystemMenuService;
+import com.soft.crm.common.entity.SystemMenu;
+import com.soft.crm.common.vo.DictType;
+import com.soft.crm.common.vo.SystemMenuVo;
+import com.soft.crm.common.vo.SystemResult;
+import com.soft.crm.service.SystemMenuService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.util.CollectionUtils;
@@ -17,7 +17,7 @@ import java.util.Map;
 
 /**
  * @description: 系统菜单接口
- * @author: mqxu
+ * @author: crq
  * @date: 2021-12-16
  **/
 @RestController

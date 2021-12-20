@@ -192,7 +192,7 @@ jwt:
   # HeaderKEY
   tokenHeader: Authorization
   # Token前缀字符
-  tokenPrefix: mqxu-
+  tokenPrefix: crq-
   # 过期时间 单位秒 1天后过期=86400 7天后过期=604800
   expiration: 86400
   # token过期时间（分钟）
