@@ -12,4 +12,12 @@
     <artifactId>crm-app</artifactId>
     <packaging>jar</packaging>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.soft.crm</groupId>
+            <artifactId>crm-controller</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+
 </project>
