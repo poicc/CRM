@@ -1,67 +1,58 @@
 package com.soft.crm.common.entity;
 
-import java.util.Date;
-import java.io.Serializable;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.baomidou.mybatisplus.annotation.TableField;
+import com.baomidou.mybatisplus.annotation.TableId;
+import com.baomidou.mybatisplus.extension.activerecord.Model;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 
+import java.io.Serializable;
+import java.util.Date;
+
 /**
- * <p>
- * 联系人表
- * </p>
+ * CRM联系人
  *
- * @author crq
+ * @author mqxu
  * @since 2021-12-10
  */
+@EqualsAndHashCode(callSuper = true)
 @Data
-@EqualsAndHashCode(callSuper = false)
-@ApiModel(value="CrmContacts对象", description="联系人表")
-public class CrmContacts implements Serializable {
+public class CrmContacts extends Model<CrmContacts> {
 
-    private static final long serialVersionUID = 1L;
-
+    @TableId(value = "contacts_id")
     private String contactsId;
 
-    @ApiModelProperty(value = "公司联系人")
     private String contactsName;
 
-    @ApiModelProperty(value = "最近沟通时间")
     private Date lastTime;
 
-    @ApiModelProperty(value = "手机")
     private String contactsMobile;
 
-    @ApiModelProperty(value = "电话")
     private String contactsTelephone;
 
-    @ApiModelProperty(value = "邮箱")
     private String contactsEmail;
 
-    @ApiModelProperty(value = "公司职务")
     private String title;
 
-    @ApiModelProperty(value = "客户ID")
     private Integer clientId;
 
-    @ApiModelProperty(value = "地址")
     private String address;
 
-    @ApiModelProperty(value = "备注")
     private String remark;
 
-    @ApiModelProperty(value = "创建人ID")
     private Long createUserId;
 
-    @ApiModelProperty(value = "负责人ID")
     private Long ownerUserId;
 
-    @ApiModelProperty(value = "创建时间")
     private Date createTime;
 
-    @ApiModelProperty(value = "更新时间")
     private Date updateTime;
 
+    @TableField(exist = false)
+    private String clientName;
 
+    @Override
+    public Serializable pkVal() {
+        return this.contactsId;
+    }
 }
